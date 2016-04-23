@@ -1,0 +1,102 @@
+
+li {
+   list-style: none;
+}
+
+.h_10vh {
+   /*h10vh*/
+   height: 10vh;
+}
+.h_15vh {
+   /*h15vh*/
+   height: 15vh;
+}
+.h_75vh {
+   /*h75vh*/
+   height: 75vh;
+}
+
+
+.h_33 {
+   /*h50%*/
+   height: 33%;
+}
+.h_50 {
+   /*h50%*/
+   height: 50%;
+}
+.h_100 {
+   /*h100%*/
+   height: 100%;
+}
+
+
+/* Media Queries: Reglas para pantallas de diversos tamaños */
+
+@media screen and (max-width:640px) {
+   .h_sm_50 {
+      /*h50%*/
+      height: 50%;
+   }
+
+   .font_sm_S {
+      font-size: 12px;
+   }
+}
+
+
+.p0 {
+   /*p0px*/
+   padding: 0px;
+}
+.p1 {
+   /*p15px*/
+   padding: 15px;
+}
+.p2 {
+   /*p30px*/
+   padding: 30px;
+}
+.p3 {
+   /*p45px*/
+   padding: 45px;
+}
+.p4 {
+   /*p60px*/
+   padding: 60px;
+}
+
+
+
+
+.fontL {
+   font-size: 36px;
+}
+
+
+
+
+/*
+@media screen and (max-width:640px) {
+   body {
+      background-color: red;
+   }
+}
+
+@media screen and (min-width:641px) and (max-width:1024px) {
+   body {
+      background-color: green;
+   }
+}
+
+@media screen and (min-width:1025px) {
+   body {
+      background-color: blue;
+   }
+}*/
+
+
+.scroll_h {
+   /*ovya*/
+   overflow-y: auto;
+}
