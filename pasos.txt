@@ -18,3 +18,9 @@ Theme Name: Nombre del Tema
 
 
 6. mover recursos (css y js de index.php a functions.php - crear funciones de cargado )
+
+7. añadir wp_head antes de </head>
+8. añadir wp_footer antes de </body>
+
+
+Listo!
